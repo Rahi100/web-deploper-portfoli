@@ -121,7 +121,8 @@ main {
     max-width: 1140px;
     margin: auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 
 }
@@ -157,16 +158,53 @@ main section{
 }
 
 .skill-description {
-  color: #757575;
+    color: #757575;
 }
-/* Resume Section Styles */
-resume-colume-title{
-    color: #474747;
-font-size: 30px;
-font-weight: 700;
 
+/* Resume Section Styles */
+.resume-colume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+
+}
+
+.resume-item-institute,
+.resume-item-description {
+    color: #757575;
 }
 
 #what {
     padding: 30px 150px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer style */
+footer{
+    display: flex;
+    background:#FFF8F3;
+    padding:130px 230px ;
+    margin-top: 100px;
+
 }
